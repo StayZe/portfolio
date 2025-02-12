@@ -33,7 +33,7 @@ const AnimatedText = () => {
           fontFamily: fonts[currentFontIndex],
           transition: "font-family 0.3s ease-in-out", // Transition fluide
         }}
-        className="text-5xl font-bold text-pink-600"
+        className="text-3xl md:text-4xl lg:text-5xl font-bold text-pink-600"
       >
         Antoine Mandra
       </h1>

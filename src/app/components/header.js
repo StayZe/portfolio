@@ -13,10 +13,10 @@ const Header = () => {
   };
 
   const menuItems = [
-    { label: "Home", href: "/" },
-    { label: "Projects", href: "/projects" },
-    { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
+    { label: "Accueil", href: "/" },
+    { label: "Compétences", href: "#skills" },
+    { label: "Loisirs", href: "#loisirs" },
+    { label: "Réseaux", href: "#social" },
   ];
 
   const linkHoverVariants = {

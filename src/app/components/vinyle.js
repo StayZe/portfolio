@@ -22,7 +22,7 @@ export default function RotatingVinyl() {
       animate={controls}
       style={{ display: "inline-block" }}
     >
-      <Image src="/img/vinyle.png" alt="vinyle" width={400} height={400} />
+      <Image src="/img/vinyle.png" alt="vinyle" width={400} height={400} className="w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]" />
     </motion.div>
   );
 }
