@@ -15,13 +15,13 @@ export default function Film() {
           ></video>
         </div>
         {/* Image centrée */}
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center h-full w-full">
           <Image
             src={"/img/film/fightclub.png"}
             width={300} // Ajuste la taille si nécessaire
             height={300}
             alt="fight club logo"
-            className="opacity-80" // Optionnel pour rendre le logo légèrement transparent
+            className="max-h-full scale-75" // Optionnel pour rendre le logo légèrement transparent
           />
         </div>
       </div>
