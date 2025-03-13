@@ -18,7 +18,7 @@ export default function Home() {
       className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll scroll-smooth"
       style={{ scrollSnapType: "y mandatory" }}
     >
-      <div className="snap-center h-screen w-screen flex flex-col lg:flex-row items-center">
+      <div id="home" className="snap-center h-screen w-screen flex flex-col lg:flex-row items-center">
         <div className="h-1/2 lg:w-1/2 flex justify-center">
           <AnimatedText />
         </div>

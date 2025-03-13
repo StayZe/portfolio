@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   const menuItems = [
-    { label: "Accueil", href: "/" },
+    { label: "Accueil", href: "#home" },
     { label: "Compétences", href: "#skills" },
     { label: "Loisirs", href: "#loisirs" },
     { label: "Réseaux", href: "#social" },
