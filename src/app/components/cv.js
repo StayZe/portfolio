@@ -32,7 +32,7 @@ export default function Pdf() {
         }}
       >
         <Image
-          src="/img/cv.png"
+          src="/img/cv.webp"
           width={720}
           height={1280}
           alt="cv"

@@ -17,7 +17,7 @@ export default function Film() {
         {/* Image centrée */}
         <div className="absolute inset-0 flex items-center justify-center h-full w-full">
           <Image
-            src={"/img/film/fightclub.png"}
+            src={"/img/film/fightclub.webp"}
             width={300} // Ajuste la taille si nécessaire
             height={300}
             alt="fight club logo"
@@ -39,7 +39,7 @@ export default function Film() {
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <Image
-            src={"/img/film/taxidriver.png"}
+            src={"/img/film/taxi.webp"}
             width={300}
             height={300}
             alt="taxi driver logo"
@@ -60,7 +60,7 @@ export default function Film() {
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <Image
-            src={"/img/film/tenet.png"}
+            src={"/img/film/tenet.webp"}
             width={300}
             height={300}
             alt="tenet logo"
@@ -81,7 +81,7 @@ export default function Film() {
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <Image
-            src={"/img/film/wallstreet.png"}
+            src={"/img/film/wallstreet.webp"}
             width={300}
             height={300}
             alt="wall street logo"
