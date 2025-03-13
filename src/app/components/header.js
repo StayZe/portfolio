@@ -17,6 +17,7 @@ const Header = () => {
     { label: "Compétences", href: "#skills" },
     { label: "Loisirs", href: "#loisirs" },
     { label: "Réseaux", href: "#social" },
+    { label: "cv", href: "#cv" },
   ];
 
   const linkHoverVariants = {

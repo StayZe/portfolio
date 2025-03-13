@@ -22,7 +22,7 @@ export default function Pdf() {
   }, []);
 
   return (
-    <div className="relative h-screen snap-center lg:p-32 flex justify-center items-center">
+    <div id="#cv" className="relative h-screen snap-center lg:p-32 flex justify-center items-center">
       <div
         ref={tiltRef}
         className="rounded-lg shadow-2xl transition-transform"
