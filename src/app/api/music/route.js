@@ -6,7 +6,7 @@ export async function GET(req) {
   const files = fs.readdirSync(imagesDirectory);
 
   const images = files
-    .filter((file) => /\.(jpg|jpeg|png|gif)$/i.test(file))
+    .filter((file) => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
     .map((file) => `/img/albums/${file}`);
 
   return new Response(JSON.stringify(images), {
