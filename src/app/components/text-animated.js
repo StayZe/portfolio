@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import "../fonts.css"; // Assure-toi d'importer les polices dans ton CSS ou via next/font
+import { motion } from "framer-motion";
+import "../fonts.css"; // Import fonts from your CSS or via next/font
 
 const fonts = [
   "'Montserrat', sans-serif",
@@ -21,22 +22,32 @@ const AnimatedText = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentFontIndex((prevIndex) => (prevIndex + 1) % fonts.length);
-    }, 150); // Change la police toutes les 0.4 secondes
+    }, 150); // Change font every 150ms
 
-    return () => clearInterval(interval); // Nettoyage de l'intervalle à la fin
+    return () => clearInterval(interval); // Clean up interval
   }, []);
 
   return (
-    <div className="flex justify-center items-center">
-      <h1
-        style={{
-          fontFamily: fonts[currentFontIndex],
-          transition: "font-family 0.3s ease-in-out", // Transition fluide
-        }}
-        className="text-3xl md:text-4xl lg:text-5xl font-bold text-pink-600"
-      >
-        Antoine Mandra
-      </h1>
+    <div className="w-full flex justify-center items-center">
+      <div className="relative w-full overflow-visible">
+        <motion.h1
+          initial={{ x: "-100%" }}
+          animate={{ x: 0 }}
+          transition={{
+            type: "spring",
+            stiffness: 70,
+            damping: 20,
+            duration: 1.2,
+          }}
+          style={{
+            fontFamily: fonts[currentFontIndex],
+            transition: "font-family 0.3s ease-in-out",
+          }}
+          className="text-3xl md:text-4xl lg:text-5xl font-bold text-pink-600 text-center"
+        >
+          Antoine Mandra
+        </motion.h1>
+      </div>
     </div>
   );
 };
