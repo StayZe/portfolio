@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./fonts.css";
+import { Analytics } from "@vercel/analytics/react"
 import Header from "./components/header";
 import Footer from "./components/footer";
 
