@@ -18,20 +18,20 @@ const geistMono = Geist_Mono({
 
 // 🌟 METADATA OPTIMISÉE POUR LE SEO
 export const metadata = {
-  title: "Antoine Mandra - Développeur Web | ESGI | Alternance chez Comsea",
+  title: "Antoine Mandra - Développeur Web",
   description:
     "Développeur web spécialisé en Next.js et React. Étudiant à l'ESGI et en alternance chez Comsea. Découvrez mes projets et mon parcours.",
-  metadataBase: new URL("https://antoine-mandra.com"), // 🔥 Ton domaine à remplacer
+  metadataBase: new URL("https://stayze.fr"), // 🔥 Ton domaine à remplacer
 
   openGraph: {
     title: "Antoine Mandra - Développeur Web",
     description:
       "Développeur web Next.js & React. Étudiant à l'ESGI et alternant chez Comsea. Découvrez mon portfolio et mes réalisations.",
-    url: "https://antoine-mandra.com", // 🔥 Remplace par ton site
+    url: "https://stayze.fr", // 🔥 Remplace par ton site
     siteName: "Antoine Mandra",
     images: [
       {
-        url: "https://antoine-mandra.com/images/og-image.jpg", // 🔥 Remplace par une image de toi ou ton logo
+        url: "https://stayze.fr/images/og-image.jpg", // 🔥 Remplace par une image de toi ou ton logo
         width: 1200,
         height: 630,
         alt: "Antoine Mandra - Développeur Web",
@@ -54,13 +54,13 @@ export const metadata = {
       "Développeur web Next.js & React. Étudiant à l'ESGI et alternant chez Comsea. Découvrez mon portfolio et mes réalisations.",
     site: "@tonTwitter", // 🔥 Remplace par ton compte Twitter
     creator: "@tonTwitter",
-    images: ["https://antoine-mandra.com/images/og-image.jpg"], // 🔥 Image adaptée pour Twitter
+    images: ["https://stayze.fr/images/og-image.jpg"], // 🔥 Image adaptée pour Twitter
   },
 
   robots: "index, follow", // ✅ Demande à Google d'indexer ton site
 
   alternates: {
-    canonical: "https://antoine-mandra.com", // ✅ URL principale pour éviter le duplicate content
+    canonical: "https://stayze.fr", // ✅ URL principale pour éviter le duplicate content
   },
 };
 
